@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const URI = "mongodb://localhost/mern-erp";
+const URI = "mongodb://localhost/mern-todo-app";
 
 mongoose
   .connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
